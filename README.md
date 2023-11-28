@@ -78,11 +78,11 @@ In this section, we will run a single test on Chrome browser on Browserstack. To
 
   Maven:
   ```sh
- mvn clean test -P bstack-parallel-browsers 
+   mvn clean test -P bstack-parallel-browsers 
   ```
 
   Gradle:
     ```sh
-  gradle test
+    gradle test
   ```
 
