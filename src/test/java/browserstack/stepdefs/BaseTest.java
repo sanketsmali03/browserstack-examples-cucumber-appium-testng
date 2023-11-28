@@ -1,7 +1,7 @@
 package browserstack.stepdefs;
 
 import browserstack.utils.Utility;
-import com.browserstack.local.Local;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -90,7 +90,6 @@ public class BaseTest {
             }
 
         driverThreadLocal.set(new AndroidDriver<>(new URL("http://" + username + ":" + accessKey + "@" + config.get("server") + "/wd/hub"), desiredCapabilities));
-       // driverThreadLocal.set(driverThreadLocal);
         driverThreadLocal.get().manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
 
 
@@ -122,10 +121,5 @@ public class BaseTest {
 
     @AfterMethod
     public void tearDown() throws Exception {
-
-        if (local != null) {
-            local.stop();
-        }
-
     }
 }

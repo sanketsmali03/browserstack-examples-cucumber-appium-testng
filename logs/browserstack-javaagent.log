@@ -1,0 +1,24 @@
+17:48:25.085 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+17:48:25.090 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+17:48:25.340 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/sanket/Documents/repos/sopra/example/browserstack-appium-cucumber-testng-parallel/browserstack.yml
+17:48:25.441 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:48:25.448 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+17:48:25.448 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+17:48:25.741 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:48:28.842 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 6.8.2 which is lower than the minimum version we currently support (7.3.0).
+17:48:30.399 [main] ERROR c.b.DriverServiceTransformer - [source error] no such field: message
+17:48:34.743 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vxjuvq43ybdr94fcwwwvafpvdnbvqpz0nc0whemk to view build report, insights, and many more debugging information all at one place!
+
+17:53:50.169 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 3.141.59
+17:53:50.174 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 7.5.1
+17:53:50.516 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/sanket/Documents/repos/sopra/example/browserstack-appium-cucumber-testng-parallel/browserstack.yml
+17:53:50.629 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:53:50.637 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+17:53:51.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://550c968cdaf0e7e0e4ba7e341d5158fbb20bc5c8]
+17:53:51.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:53:54.362 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled. Your cucumber-core dependency version is 6.8.2 which is lower than the minimum version we currently support (7.3.0).
+17:53:55.776 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:54:05.482 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:54:06.051 [main] ERROR c.b.DriverServiceTransformer - [source error] no such field: message
+17:54:11.529 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gouoqh0wp1vp5mprmgcqu2rq9gxbgxkup3tmalf3 to view build report, insights, and many more debugging information all at one place!
+
